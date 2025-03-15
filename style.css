@@ -1,0 +1,85 @@
+.body{
+    margin: 0;
+    height: 100vh;
+}
+.main{
+    height: 100%;
+    display: flex;
+    justify-items: center;
+}
+.main-content
+{
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: whitesmoke;
+}
+.right-side
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-right: 10px;
+}
+.input-label
+{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 10px; 
+}
+.input-label input
+{
+    outline-color: rgb(95, 95, 207);
+}
+.inputs
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.submit-button
+{
+    width: 100px;
+    margin: auto;
+    cursor: pointer;
+}
+.begging-text
+{
+    text-align: justify;
+}
+.start
+{
+    text-align: center;
+}
+.button-div 
+{
+    position: relative;
+    display: flex;
+}
+.gif-click 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    max-width: 100px;
+    height: auto;
+    display: none;
+}
+.cute-img 
+{
+    border-radius: 7px;
+    width: 300px;
+    height: 300px;
+}
